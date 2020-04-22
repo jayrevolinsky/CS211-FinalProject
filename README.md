@@ -5,22 +5,33 @@ Ultimate Goal (Not realistically attainable now but definitely can look forward 
 I figure that the project can go one of three ways. The first way; I make the basis for at least one fundamental aspect of the game; whether it is the cards or the physical dungeon. The second way: I make the basis for both fundamental aspects of the game; the cards and the dungeon. The third way (The way I want it to go), I have the cards and the dungeon finished and then I do something cool that intertwines the two to start making the real game. I don't expect to have it finished in two weeks but I want to breathe life into the fundamental aspects of the gameplay.
 
 ***Goals (in order of what I expect to be the easiest to the hardest)***
+
 ***Difficulty Options: Easiest because I have done something like this before in the class, Harder because I am aware of helpful resources for building 3-D Dungeons but have never done it before, Hardest because I am unsure of how to make it work properly or efficiently***
 
-Easiest Project Goal: Design a card game with a variety of unique cards and the potential for storing multiple decks. 
+Easiest Project Goal: Design a card game with a variety of unique cards and the potential for storing multiple decks.
+
 **Step 1:** Build a card (Class function with unique representations of cards)
+
 **Step 2:** Build Deck (Probably Dictionary data structure, maybe Unordered Map)
+
 **Step 3:** Make functionality that allows players to "build" a deck put cards into it
+
 **Step 4:** Allow players to shuffle and draw from the deck
 
 Harder Project Goal: Build a 3-D Dungeon that a player can interact with freely and has the potential for letting the dungeonmaster interact with. 
+
 **Step 1:** Build 3-D foundations for the dungeon in unity
+
 **Step 2:** Add functions/functionality that allows the dungeon to be interacted with
+
 **Step 3:** Build Player model in unity (basic features, probably from workshop, maybe custom)
+
 **Step 4:** Add functions/functionality to play (movement, interactions)
 
 Hardest Project Goal: Implementation of the game functionality with cards and the dungeon.
+
 ***Plan for game functionality***
+
 1. Turns
   A. Dungeonmaster's First Turn
     i. Their Goal: Wants to stop the player from progressing
@@ -40,7 +51,9 @@ Hardest Project Goal: Implementation of the game functionality with cards and th
       a. Awards good playstyles/combos.
     iii. Cards have mana values and/or limited interactivity (dragons cost a lot of mana, cant make impassable wall of     
         traps, etc.)
+        
 ***Initial Ideas*** 
+
 1. Implement a system with "Terrain" Cards with given parameters. 
 The dungeonmaster can then choose which terrain card to "build" the dungeon. For example, a "Fire" type dungeon will have lava on the floor and geysers of water that trigger randomly. It will modify the monsters in this dungeon making them more aggressive with less defensive capabilities.
 2. Implement a "turn-based trigger" system. 
