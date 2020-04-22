@@ -50,38 +50,38 @@ I have the cards and the dungeon finished and then I do something cool that inte
 
     A. *Dungeonmaster's First Turn*
   
-      i. Their Goal: Wants to stop the player from progressing
+        i. Their Goal: Wants to stop the player from progressing
     
-      ii. sets "Terrain" of dungeon with terrain cards
+        ii. sets "Terrain" of dungeon with terrain cards
     
-      iii. Dungeonmaster then place "triggers" in tiles on the floor
+        iii. Dungeonmaster then place "triggers" in tiles on the floor
     
-         a. Certain triggers have "synergies" with other triggers
+            a. Certain triggers have "synergies" with other triggers
       
-         b. Loot spawns based off number of triggers (not directly-controlled by player).
+            b. Loot spawns based off number of triggers (not directly-controlled by player).
       
     B. *Player First Turn (always after dungeonmaster)*
   
-      i. Their Goal: To make it to next floor.
+        i. Their Goal: To make it to next floor.
     
-      ii. Can find loot along the way (encourages exploration)
+        ii. Can find loot along the way (encourages exploration)
     
-      iii. Has to worry about traps and monsters taking down their health
+        iii. Has to worry about traps and monsters taking down their health
     
-        a. Can take advantage of tactics to overcome monster weaknesses and trap 
+            a. Can take advantage of tactics to overcome monster weaknesses and trap 
       
 2. Game Rules
 
     A. *The rules should be intuitive and promote clever strategies*
   
-      i. Have players draw card from deck into hand on each turn (limits cheese)
+        i. Have players draw card from deck into hand on each turn (limits cheese)
     
-      ii. Each player progressively gains more power naturally and based off score.
+        ii. Each player progressively gains more power naturally and/or based off score.
     
-        a. Awards good playstyles/combos.
+            a. Awards progression and good playstyles/combos.
       
-      iii. Cards have mana values and/or limited interactivity (dragons cost a lot of mana, cant make impassable wall of     
-           traps, etc.)
+        iii. Cards have mana values and/or limited interactivity (dragons cost a lot of mana, cant make impassable wall of     
+             traps, etc.)
         
 ***Initial Ideas*** 
 
