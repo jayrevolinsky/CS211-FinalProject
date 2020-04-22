@@ -1,13 +1,15 @@
 # CS211-FinalProject
 
-***Ultimate Goal*** 
+***Ultimate Goal*** (Not realistically attainable now but definitely can look forward to working on it as a hobby/passion project in the future): 
 
-(Not realistically attainable now but definitely can look forward to it): 
 Build a Dungeon-Keeper Game that uses cards as a means for customizing features of a playable dungeon. Will basically require the functions of two separate games and then storing/interacting all the data in-between.
 
-I figure that the project can go one of three ways. 
+I figure that the project can go one of three ways:
+
 The first way; I make the basis for at least one fundamental aspect of the game; whether it is the cards or the physical dungeon. 
+
 The second way: I make the basis for both fundamental aspects of the game; the cards and the dungeon. 
+
 The third way (The way I want it to go), I have the cards and the dungeon finished and then I do something cool that intertwines the two to start making the real game. I don't expect to have it finished in two weeks but I want to breathe life into the fundamental aspects of the gameplay.
 
 ***Goals (in order of what I expect to be the easiest to the hardest)***
