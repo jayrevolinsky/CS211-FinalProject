@@ -1,6 +1,8 @@
 # CS211-FinalProject
 
-***Ultimate Goal*** (Not realistically attainable now but definitely can look forward to it): 
+***Ultimate Goal*** 
+
+(Not realistically attainable now but definitely can look forward to it): 
 Build a Dungeon-Keeper Game that uses cards as a means for customizing features of a playable dungeon. Will basically require the functions of two separate games and then storing/interacting all the data in-between.
 
 I figure that the project can go one of three ways. 
@@ -36,7 +38,7 @@ Hardest Project Goal: Implementation of the game functionality with cards and th
 
 ***Plan for game functionality***
 
-1. Turns
+1. *Turns*
 
   A. Dungeonmaster's First Turn
   
@@ -59,7 +61,9 @@ Hardest Project Goal: Implementation of the game functionality with cards and th
     iii. Has to worry about traps and monsters taking down their health
     
       a. Can take advantage of tactics to overcome monster weaknesses and trap 
-2. Game Rules
+      
+2. *Game Rules*
+
   A. The rules should be intuitive and promote clever strategies
   
     i. Have players draw card from deck into hand on each turn (limits cheese)
