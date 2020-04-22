@@ -4,7 +4,7 @@
 
 Build a Dungeon-Keeper Game that uses cards as a means for customizing features of a playable dungeon. Will basically require the functions of two separate games and then storing/interacting all the data in-between.
 
-I figure that the project will have three major milestones in the two-and-a-half week period:
+***I figure that the project will have three major milestones in the two-and-a-half week period:***
 
 *The first milestone* 
 
@@ -16,7 +16,7 @@ I make the basis for both fundamental aspects of the game; the cards and the dun
 
 *The third milestone* 
 
-I have the cards and the dungeon finished and then I do something cool that intertwines the two to start making the real game. I don't expect to have it finished in two weeks but I want to breathe life into the fundamental aspects of the gameplay.
+I have the cards and the dungeon finished and then I do something cool that intertwines the two to start making the real game. I don't expect to have it finished in two weeks but I want to breathe life into the fundamental aspects of the gameplay, making something that will make for a cool in-class demonstration.
 
 ***Goals (in order of what I expect to be the easiest to the hardest)***
 
