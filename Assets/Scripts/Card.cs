@@ -2,13 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Card : MonoBehaviour
+[CreateAssetMenu(fileName = "New Card", menuName = "Card"]
+public class Card : ScriptableObject
 {
+    //Helpful video: https://www.youtube.com/watch?v=aPXvoWVabPY
     public int _CardID; //identifier label of card
     public string _CardName; //name of card
     public int _CardMana;  //mana cost of card
     public string _CardPrimaryType; //type of card
     public string _CardSecondaryType; //damage type of card
+
+    public Sprite _CardArtwork;
 
     public Color MonsterPrimaryType = new  Color(1.0f, 0.0f, 0.0f, 1.0f); //red
     public Color SpellPrimaryType = new Color(0.0f, 0.0f, 1.0f, 1.0f); //blue
