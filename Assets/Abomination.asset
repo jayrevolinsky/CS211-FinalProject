@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81eb0b00d2301bf46bc6666023297025, type: 3}
-  m_Name: Tirion
+  m_Name: Abomination
   m_EditorClassIdentifier: 
-  name: Tirion
-  description: All Allied cards in play get +1/+1
+  name: Abomination
+  description: 'On Play: Hook; Select One Card from opponents hand to put into play'
   artwork: {fileID: 21300000, guid: 25cef1bb73e99b346a44fba23bed55ea, type: 3}
-  manaCost: 6
-  attack: 6
-  health: 8
+  manaCost: 3
+  attack: 1
+  health: 5

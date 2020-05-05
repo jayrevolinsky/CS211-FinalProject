@@ -1,33 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class DragAndDrop : MonoBehaviour
+public class CardFunctions : MonoBehaviour
 {
-    GameObject Target;
-    bool isMouseDrag;
-    Vector3 offset;
+    public Button NextCardButton;
+    public Button PreviousCardButton;
+    public Button SelectCardButton;
 
-    // Update is called once per frame
-    void Update()
+   public void SetCard()
     {
-      if (Input.GetMouseButtonDown(0))
-      {
-            RaycastHit hitConfirmed;
-            //Target = ReturnClickedObject()
-            if (Target != null)
-            {
-                isMouseDrag = true;
-                //offset = Target.transform.position - Camera.main.ScreenToWorldPoint(new Vector3 (Input.mousePosition))
-            }
-      }
-      else
-      {
-            isMouseDrag = false;
-      }
-      if (isMouseDrag)
-      {
-            //Function for dealing with camera while mouse is dragging
-      }
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
