@@ -17,11 +17,12 @@ public class TriggerSystem : MonoBehaviour
         //Interact code
         Debug.Log("Triggered on" + transform.name);
     }
-    private void Update()
+    public void Update()
     {
-        if (isTrigger)
+        if (isTrigger && !hasInteracted)
         {
             float distance = Vector3.Distance(player.position, triggerTransform.position);
+
             if (distance <= radius)
             {
                 Interact();
@@ -44,6 +45,10 @@ public class TriggerSystem : MonoBehaviour
     }
     void OnDrawGizmosSelected()
     {
+        if (triggerTransform == null)
+        {
+            triggerTransform = transform;
+        }
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(triggerTransform.position, radius);
     }
