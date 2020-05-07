@@ -17,7 +17,7 @@ public class TriggerSystem : MonoBehaviour
         //Interact code
         Debug.Log("Triggered on" + transform.name);
     }
-    public void Update()
+    void Update()
     {
         if (isTrigger && !hasInteracted)
         {

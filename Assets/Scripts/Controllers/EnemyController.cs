@@ -26,7 +26,7 @@ public class EnemyController : MonoBehaviour
         {
             agent.SetDestination(target.position);
 
-            if (distance <= agent.stoppingDistance)
+            if (distance <= agent.stoppingDistance) //player within range
             {
                 CharacterStats targetStats = target.GetComponent<CharacterStats>();
                 if (targetStats != null)
@@ -39,7 +39,7 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    void FaceTarget()
+    void FaceTarget() //same as keeper
     {
         Vector3 direction = (target.position - transform.position).normalized;
         Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));

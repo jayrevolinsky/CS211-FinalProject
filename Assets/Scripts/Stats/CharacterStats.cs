@@ -13,13 +13,13 @@ public class CharacterStats : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            TakeDamage(10);
-        }
-    }
+    //private void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.T))
+    //    {
+    //        TakeDamage(10);
+    //    }
+    //}
     public void TakeDamage (int damage)
     {
         damage -= armor.GetValue();

@@ -4,20 +4,19 @@ using UnityEngine;
 [RequireComponent(typeof(KeeperMotor))]
 public class KeeperController : MonoBehaviour
 {
-
-    public LayerMask movementmask;
+    public TriggerSystem focus;
+    public LayerMask movementmask; //doesnt seem to be the bug
     Camera cam;
     KeeperMotor motor;
 
-    public TriggerSystem focus;
 
-    private void Start()
+    void Start()
     {
         cam = Camera.main;
         motor = GetComponent<KeeperMotor>();
     }
 
-    private void Update()
+    void Update()
     {
         if (EventSystem.current.IsPointerOverGameObject())
         {
@@ -29,7 +28,7 @@ public class KeeperController : MonoBehaviour
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
-            if (Physics.Raycast(ray, out hit, 100, movementmask))
+            if (Physics.Raycast(ray, out hit, 100, movementmask)) //tried movementmask
             {
                 motor.MoveToPoint(hit.point);
                 //Move object to hit
@@ -63,11 +62,11 @@ public class KeeperController : MonoBehaviour
             }
             
             focus = newFocus;
-            motor.FollowTarget(newFocus);
+            motor.FollowTarget(newFocus); //not the problem function call
         }
-        focus = newFocus;
+        //focus = newFocus; --- not bad but not redundant
         newFocus.OnFocused(transform);
-        motor.FollowTarget(newFocus);
+        //motor.FollowTarget(newFocus); ---also redundant
     }
 
     void RemoveFocus()

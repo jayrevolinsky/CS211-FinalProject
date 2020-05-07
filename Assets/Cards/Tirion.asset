@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tirion
   m_EditorClassIdentifier: 
   name: Tirion
-  description: All Allied cards in play get +1/+1
+  description: Pls dont ruin him in shadowlands
   artwork: {fileID: 21300000, guid: 25cef1bb73e99b346a44fba23bed55ea, type: 3}
   manaCost: 6
   attack: 6
