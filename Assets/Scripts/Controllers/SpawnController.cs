@@ -19,6 +19,6 @@ public class SpawnController : MonoBehaviour
 
     void SpawnMonster()
     {
-        Debug.Log("SpawnMonster")
+        Debug.Log("SpawnMonster");
     }
 }

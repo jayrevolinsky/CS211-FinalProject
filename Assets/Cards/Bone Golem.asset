@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81eb0b00d2301bf46bc6666023297025, type: 3}
-  m_Name: Abomination
+  m_Name: Bone Golem
   m_EditorClassIdentifier: 
-  name: Abomination
-  description: Large, Loud, Angry
-  artwork: {fileID: 21300000, guid: 502984e7d62868144991ae0e7b81a6bb, type: 3}
-  manaCost: 4
-  attack: 2
-  health: 5
+  name: Bone Golem
+  description: Watch the pointy bits
+  artwork: {fileID: 21300000, guid: a775d5921eb206c4ba3d4096fcb70329, type: 3}
+  manaCost: 6
+  attack: 5
+  health: 6
