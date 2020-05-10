@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Abomination
   m_EditorClassIdentifier: 
   name: Abomination
-  description: Large, Loud, Angry
+  description: Large, Loud, and Angry
   artwork: {fileID: 21300000, guid: 502984e7d62868144991ae0e7b81a6bb, type: 3}
   manaCost: 4
   attack: 2
