@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GridPlacement : MonoBehaviour
 {
+    public GameObject EnemyPrefabList;
     private Grid grid;
 
     private void Awake()
@@ -28,7 +29,7 @@ public class GridPlacement : MonoBehaviour
     private void SpawnObject(Vector3 spawnPoint)
     {
         var finalPosition = grid.GetNearestPointOnGrid(spawnPoint);
-        //var instance : GameObject = Instantiate(Resources.Load("Enemy")); //buggy script for loading in monsters
-        GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position = finalPosition;
+
+        GameObject spawn = Instantiate(EnemyPrefabList) as GameObject;
     }
 }
