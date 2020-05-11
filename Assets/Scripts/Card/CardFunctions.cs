@@ -11,35 +11,38 @@ public class CardFunctions : MonoBehaviour
     public Button NextCardButton;
     public Button PreviousCardButton;
     public Button SelectCardButton;
-
+    public int i = 0;
     public int MonsterSelectTemp;
 
-   public void SetCard()
+    public void Start()
+    {
+        Debug.Log("Do you want to spawn " + MonsterDatabase[i] + "? ");
+        MonsterSelectTemp = i;
+    }
+
+    public void SetCard()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-
-    public int NextCard(int j)
+    public void NextCard()
     {
-        for (var i = 0; i < MonsterDatabase.Count; i++)
+        if (MonsterSelectTemp < 2 && MonsterSelectTemp >= 0) //sanity check
         {
-            i = MonsterSelectTemp;
+            MonsterSelectTemp += 1; //increment
         }
-        return MonsterSelectTemp;
-        
+        Debug.Log("Do you want to spawn " + MonsterDatabase[MonsterSelectTemp]);         
     }
 
-    public int PreviousCard(int j)
+    public void PreviousCard()
     {
-        for (var i = 0; i < MonsterDatabase.Count; i--)
+        if (MonsterSelectTemp > 0) //sanity check
         {
-            i = MonsterSelectTemp;
+            MonsterSelectTemp -= 1; //decrement
         }
-        return MonsterSelectTemp;
-        
+        Debug.Log("Do you want to spawn " + MonsterDatabase[MonsterSelectTemp]);
     }
 
-    public int MonsterSelection()
+    public int MonsterSelection() //function to access data from other scripts
     {
         return MonsterSelectTemp;
     }

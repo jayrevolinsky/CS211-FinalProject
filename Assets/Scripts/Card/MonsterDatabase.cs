@@ -5,7 +5,7 @@ using UnityEngine;
 [SerializeField]
 public class MonsterDatabase : MonoBehaviour
 {
-    public List<GameObject> MonsterList;
+    public List<GameObject> monsterDatabase;
     public void Awake() //when game starts build cards
     {
         //MonsterList.Add(new Card(0, "Skeleton", 1, "Monster", "Undead", "Rattles a lot"));

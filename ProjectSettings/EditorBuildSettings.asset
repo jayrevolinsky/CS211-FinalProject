@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Dungeon.unity
     guid: 52e5092ab04e14344b479a6dde5bbed1
   - enabled: 1
-    path: Assets/Scenes/WinScreenEasy.unity
+    path: Assets/Scenes/WinScreenPlayer.unity
     guid: af798b4c52fde174bb2556c1aaf7cb0a
   m_configObjects: {}
