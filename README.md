@@ -21,3 +21,5 @@ _This is more like a TO-DO list_
     - likely a problem with the enemy script
 6. The Player is unable to attack the Monster, meaning that the monster will chase the player around and kill them while the player
     has to avoid the invulnerable monster.
+7. Inventory Slots are not saved between scenes.
+    - Same issue as monsters, requires me learning more.
