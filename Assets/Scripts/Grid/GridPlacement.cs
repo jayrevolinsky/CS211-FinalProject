@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class GridPlacement : MonoBehaviour
 {
-    public GameObject EnemyPrefabList;
+    public List<GameObject> EnemyPrefabList;
     private Grid grid;
+    public CardFunctions cardFunctions;
+    int i;
 
     private void Awake()
     {
         grid = FindObjectOfType<Grid>();
+        i = cardFunctions.MonsterSelectTemp;
     }
 
     private void Update()
@@ -30,6 +33,6 @@ public class GridPlacement : MonoBehaviour
     {
         var finalPosition = grid.GetNearestPointOnGrid(spawnPoint);
 
-        GameObject spawn = Instantiate(EnemyPrefabList) as GameObject;
+        GameObject spawn = Instantiate(EnemyPrefabList[i]) as GameObject;
     }
 }

@@ -14,6 +14,7 @@ public class CardFunctions : MonoBehaviour
     public int i = 0;
     public int MonsterSelectTemp;
 
+
     public void Start()
     {
         Debug.Log("Do you want to spawn " + MonsterDatabase[i] + "? ");
@@ -44,6 +45,8 @@ public class CardFunctions : MonoBehaviour
 
     public int MonsterSelection() //function to access data from other scripts
     {
-        return MonsterSelectTemp;
+        int FinalMonsterSelect;
+        FinalMonsterSelect = MonsterSelectTemp;
+        return FinalMonsterSelect;
     }
 }
