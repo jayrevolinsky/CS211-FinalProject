@@ -6,7 +6,7 @@
 
 ## _Known Problems with GamePlay_
 
-_The code compiles so these problems currenlty affect just gameplay_
+_The code compiles so these problems currently affect just gameplay_
 _This is more like a TO-DO list_
 
 1. When going between scenes CardFunctions resets the value for the MonsterList, so it just spawns Skeletons which are Element 0 on the MonsterList.
@@ -21,5 +21,6 @@ _This is more like a TO-DO list_
     - likely a problem with the enemy script
 6. The Player is unable to attack the Monster, meaning that the monster will chase the player around and kill them while the player
     has to avoid the invulnerable monster.
+    - Likely a problem with Gizmos, going to have to look over Enemy script.
 7. Inventory Slots are not saved between scenes.
     - Same issue as monsters, requires me learning more.
